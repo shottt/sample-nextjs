@@ -1,10 +1,10 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 
 type Props = {
   page: string,
 };
 
-export default function Headline(props: Props) {
+export function Headline(props: Props) {
   return (
     <div>
       <h1 className={styles.title}>{props.page} Page</h1>
